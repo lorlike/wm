@@ -1,0 +1,12 @@
+# build artifacts
+*.o
+*.a
+/dwm/dwm
+/slstatus/slstatus
+
+# patch leftovers
+*.orig
+*.rej
+
+# suckless release tarballs
+*.tar.gz
