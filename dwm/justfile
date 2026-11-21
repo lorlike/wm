@@ -1,0 +1,4 @@
+install:
+    @sudo make clean install
+clean:
+    @make clean
