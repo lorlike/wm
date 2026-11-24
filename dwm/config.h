@@ -100,7 +100,7 @@ static const Key keys[] = {
 
     {MODKEY | ShiftMask, XK_x, spawn, SHCMD("i3lock -i ~/.config/i3/nord.png")},
 
-    {0, XK_Print, spawn, SHCMD("sh ~/.config/i3/screenshot.sh")},
+    {0, XK_Print, spawn, SHCMD("flameshot gui")},
 
     {MODKEY, XK_d, spawn, {.v = rofi}},
     {MODKEY, XK_Return, spawn, {.v = termcmd}},
